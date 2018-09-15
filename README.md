@@ -1,2 +1,2 @@
-# university_DB
-An easy implementation of a postgreSQL DB
+# PostgreSQL_DB
+An easy implementation of some postgreSQL DB
