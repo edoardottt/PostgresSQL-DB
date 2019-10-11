@@ -16,7 +16,7 @@ VALUES
 ('0000000000000010',	'Marco',	'Ferrari',	'via dei castagni 1',	'30500'),
 ('0000000000000011',	'Matteo',	'Arcangeli','via delle pezze 11',	'32000'),
 ('0000000000000013',	'Ajeje',	'Brazorf',	'via principale 1',	'20000'),
-('0000000000000014',	'Giovanni',	'Storti','via dei coglioni 1',	'30000'),
+('0000000000000014',	'Giovanni',	'Storti','via dei cirri 1',	'30000'),
 ('0000000000000015',	'Cataldo',	'Baglio',	'via dei casali 10',	'30000');
 
 INSERT INTO Dirigente(codDir,nome,cognome,indirizzo,stipendio)
@@ -34,8 +34,8 @@ VALUES
 ('1000000000000011',	'Matteo',	'Arcangeli',	'via delle pezze 11',	'42000'),
 ('1000000000000012',	'Gianluca',	'Mancini',	'via dei tamarri 61',	'40000'),
 ('1000000000000013',	'Ajeje',	'Brazorf',	'via principale 41',	'40000'),
-('1000000000000014',	'Giovanni',	'Storti',	'via dei coglioni 12',	'40000'),
-('1000000000000015',	'Edo',	'Poltroni',	'via dei casali 1',	'300000');
+('1000000000000014',	'Giovanni',	'Storti',	'via dei cirri 12',	'40000'),
+('1000000000000015',	'Edoardo',	'Poltroni',	'via dei casali 1',	'300000');
 
 INSERT INTO Proprietario(codPro,nome,cognome,indirizzo)
 VALUES
@@ -50,9 +50,9 @@ VALUES
 ('2000000000000009',	'Alessandro',	'Rossi',	'via dei castagni 1'),
 ('2000000000000010',	'Marco',	'Antiochia',	'via dei castagni  1'),
 ('2000000000000011',	'Matteo',	'Arcangeli',	'via delle pezze 11'),
-('2000000000000012',	'Fabio',	'Mancini',	'via dei tamarri 61'),
+('2000000000000012',	'Fabio',	'Mancini',	'via dei marri 61'),
 ('2000000000000013',	'Ajeje',	'Brazorf',	'via principale 41'),
-('2000000000000014',	'Giovanni',	'Storti',	'via dei coglioni 12');
+('2000000000000014',	'Giovanni',	'Storti',	'via dei cirri 12');
 
 INSERT INTO Officina(nome,codO,indirizzo,nDip)
 VALUES
