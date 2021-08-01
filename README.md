@@ -6,10 +6,8 @@ Easy implementation of some postgreSQL DBs useful to exercise with SQL queries.
 Databases created during the course of *Database 2nd module* at Computer Science Bachelor Degree Course, La Sapienza University in Rome.
 
 
-If you liked it drop a :star:
---------
+License
+-------
 
-https://www.edoardoottavianelli.it for contact me.
-
-
-                                                                        Edoardo Ottavianelli
+This repository is [unlicensed](https://github.com/edoardottt/PostgresSQL-DB/blob/master/LICENSE).  
+[edoardoottavianelli.it](https://www.edoardoottavianelli.it) to contact me.
