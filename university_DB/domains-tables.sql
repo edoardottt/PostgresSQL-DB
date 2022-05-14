@@ -41,8 +41,6 @@ create table Corso(
 		foreign key(facolta) references Facolta(cod)
 );
 
-
-
 create table Studente(
 		matricola Matricola not null,
 		cf Cf not null,
@@ -67,7 +65,6 @@ create table Regione(
 	primary key(nome)
 );
 
-
 create table Citta(
 	nome StringaM not null,
 	regione StringaM not null,
@@ -75,14 +72,12 @@ create table Citta(
 	foreign key (regione) references Regione(nome)
 );
 
-
 create table Email(
 	emailvalue StringaM not null,
 	cf Cf not null,
 	primary key (emailvalue),
 	foreign key (cf) references Persona(cf) deferrable
 );
-
 
 create table nata(
 	cf Cf not null,
@@ -102,12 +97,8 @@ create table superato(
 	foreign key (corso) references Corso(cod)
 );
  
- 
 ALTER TABLE Persona
 ADD CONSTRAINT nataaa
 foreign key(cf) references nata(cf) deferrable;
 
-
 commit;
-
-
