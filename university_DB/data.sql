@@ -3,7 +3,6 @@ begin transaction;
 set constraints all deferred;
 
 
-
 INSERT INTO Persona(datadinascita, cf, nome, cognome) VALUES
 ('1997-02-01',   'aaaaaaaaaaaaaaaa',   'Alessia',  'Braccialetti'),
 ('1995-04-05',   'bbbbbbbbbbbbbbbb',    'Orazio',   'Orsato'),
@@ -12,11 +11,9 @@ INSERT INTO Persona(datadinascita, cf, nome, cognome) VALUES
 ('1964-08-11',   'eeeeeeeeeeeeeeee',    'Franco',  'Poligono'),
 ('1971-10-10', 'ffffffffffffffff',   'Ermenegildo','Racciante');
 
-
 INSERT INTO Facolta(cod, nome, tipo) VALUES
 ('1',   'Lingue',   'Letteraria'),
 ('2',   'Ingegneria',   'Scientifica');
-
 
 INSERT INTO Corso(cod, nome, orelezione, facolta) VALUES
 ('1',   'Analisi',   '5',   '2'),
@@ -24,18 +21,15 @@ INSERT INTO Corso(cod, nome, orelezione, facolta) VALUES
 ('3',   'Traduzione consecutiva',   '5',   '1'),
 ('4',   'Interpretariato',   '4',   '1');
 
-
 INSERT INTO Studente(matricola, cf, facolta, annoiscrizione) VALUES
 ('123456789',   'aaaaaaaaaaaaaaaa',   '1', '12-07-2015'),
 ('234567891',   'bbbbbbbbbbbbbbbb',   '2', '13-08-2015');
-
 
 INSERT INTO Docente(cf, corso) VALUES
 ('cccccccccccccccc',  '4'),
 ('dddddddddddddddd',   '1'),
 ('eeeeeeeeeeeeeeee',   '3'),
 ('ffffffffffffffff',   '2');
-
 
 INSERT INTO Regione(nome) VALUES
 ('Lazio'),
@@ -67,5 +61,3 @@ INSERT INTO Superato(studente,corso,voto) VALUES
 ('234567891',  '2',  '32');
 
 commit;
-
-
