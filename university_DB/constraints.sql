@@ -159,6 +159,4 @@ after delete on Docente
 for each row execute procedure V_DOCENTE_delete();
 
 
-
-
 commit work;
